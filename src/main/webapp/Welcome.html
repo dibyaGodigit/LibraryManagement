@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome Page</title>
+</head>
+	<style>
+	  body {
+	    font-family: Arial, sans-serif;
+	    background-color: #f7f7f7;
+	    margin: 0;
+	    padding: 0;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    height: 100vh;
+	    background-image: url("library.jpg");
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	  }
+	  .container {
+	    max-width: 400px;
+	    padding: 30px;
+	    background-color: #ffffff;
+	    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+	    border-radius: 10px;
+	    text-align: center;
+	  }
+	  h2 {
+	    margin-top: 0;
+	    color: #333;
+	  }
+	  .button-container {
+	    display: flex;
+	    flex-direction: column;
+	    margin-top: 30px;
+	  }
+	  .button {
+	    padding: 10px;
+	    background-color: #007bff;
+	    color: #ffffff;
+	    border: none;
+	    border-radius: 5px;
+	    cursor: pointer;
+	    margin-bottom: 10px;
+	    transition: background-color 0.3s;
+	  }
+	  .button:hover {
+	    background-color: #0056b3;
+	  }
+	</style>
+<body>
+	 <div class="container">
+    <h2>Welcome to Library Management App</h2>
+    <div class="button-container">
+      <a href="UserLogin.html" class="button">Login</a>
+      <a href="Register.html" class="button">Register</a>
+      <a href="adminLogin.html" class="button">Login as Admin</a>
+    </div>
+  </div>
+
+</body>
+</html>
